@@ -5,9 +5,11 @@ class Title extends Component {
   render() {
     const { headline } = this.props;
     return (
-      <h2>
-        { headline }
-      </h2>
+      <div>
+        <h2>
+          { headline }
+        </h2>
+      </div>
     );
   }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Title from './Title';
 import PlanetCard from './PlanetCard';
+import Title from './Title';
 import planets from '../data/planets';
 
 class SolarSystem extends Component {
