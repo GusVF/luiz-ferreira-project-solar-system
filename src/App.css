@@ -1,3 +1,89 @@
+body {
+  background: url('https://raw.githubusercontent.com/aysllanferreira/Projeto-12-Solar-System/2c9ca68a22f9ee29ed8d912bc4ef30aa533d144f/src/assets/bg3.png');
+}
+
 .App {
+  color: whitesmoke;
   text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.Mercúrio {
+  height: 31px;
+  left: 39px;
+  top: 620px;
+  width: 41px;
+}
+
+.Vênus {
+  height: 76px;
+  left: 137px;
+  top: 597px;
+  width: 102px;
+}
+
+.Terra {
+  height: 79px;
+  left: 278px;
+  top: 596px;
+  width: 106px;
+}
+
+.Marte {
+  height: 50px;
+  left: 423px;
+  top: 610px;
+  width: 66px;
+}
+
+.Júpiter {
+  height: 204px;
+  left: 489px;
+  top: 518px;
+  width: 272px;
+}
+
+.Saturno {
+  height: 210.9px;
+  left: 694px;
+  top: 547.35px;
+  width: 282.41px;
+}
+
+.Urano {
+  height: 109px;
+  left: 977px;
+  top: 576px;
+  width: 144px;
+}
+
+.Netuno {
+  height: 107px;
+  left: 1255px;
+  top: 577px;
+  width: 144px;
+}
+
+.planets {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+}
+
+.mission-card {
+  background-color: rgb(3, 46, 46);
+  border: 2px solid gray;
+  border-radius: 5px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: space-around;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 30px;
 }

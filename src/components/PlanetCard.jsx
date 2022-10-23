@@ -6,10 +6,14 @@ class PlanetCard extends Component {
     const { planetName, planetImage } = this.props;
     return (
       <div data-testid="planet-card">
-        <p data-testid="planet-name">
+        <p data-testid="planet-name" className="phrase">
           { planetName }
         </p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+        <img
+          src={ planetImage }
+          className={ planetName }
+          alt={ `Planeta ${planetName}` }
+        />
       </div>
     );
   }
