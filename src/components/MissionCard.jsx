@@ -5,8 +5,11 @@ class MissionCard extends Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
-      <section className="missions">
-        <div data-testid="mission-card" className="mission-card">
+      <section>
+        <div
+          data-testid="mission-card"
+          className="missions"
+        >
           <p data-testid="mission-name">
             {name}
           </p>

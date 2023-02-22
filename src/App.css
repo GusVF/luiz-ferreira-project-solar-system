@@ -2,18 +2,20 @@ body {
   background: url('https://raw.githubusercontent.com/aysllanferreira/Projeto-12-Solar-System/2c9ca68a22f9ee29ed8d912bc4ef30aa533d144f/src/assets/bg3.png');
 }
 
-.App {
+.missions {
+  border: 2px whitesmoke solid;
+  border-radius: 5px;
   color: whitesmoke;
-  text-align: center;
-}
-
-h1 {
-  margin-top: 50px;
+  font-weight: 600;
+  width: 200px;
+  margin-bottom: 5px;
+  margin-left: 43%;
 }
 
 .Mercúrio {
   height: 31px;
   left: 39px;
+  /* position: absolute; */
   top: 620px;
   width: 41px;
 }
@@ -21,6 +23,7 @@ h1 {
 .Vênus {
   height: 76px;
   left: 137px;
+  /* position: absolute; */
   top: 597px;
   width: 102px;
 }
@@ -28,6 +31,7 @@ h1 {
 .Terra {
   height: 79px;
   left: 278px;
+  /* position: absolute; */
   top: 596px;
   width: 106px;
 }
@@ -35,6 +39,7 @@ h1 {
 .Marte {
   height: 50px;
   left: 423px;
+  /* position: absolute; */
   top: 610px;
   width: 66px;
 }
@@ -42,6 +47,7 @@ h1 {
 .Júpiter {
   height: 204px;
   left: 489px;
+  /* position: absolute; */
   top: 518px;
   width: 272px;
 }
@@ -49,6 +55,7 @@ h1 {
 .Saturno {
   height: 210.9px;
   left: 694px;
+  /* position: absolute; */
   top: 547.35px;
   width: 282.41px;
 }
@@ -56,6 +63,7 @@ h1 {
 .Urano {
   height: 109px;
   left: 977px;
+  /* position: absolute; */
   top: 576px;
   width: 144px;
 }
@@ -63,27 +71,8 @@ h1 {
 .Netuno {
   height: 107px;
   left: 1255px;
+  /* position: absolute; */
   top: 577px;
   width: 144px;
 }
 
-.planets {
-  color: white;
-  display: flex;
-  flex-direction: row;
-  margin-top: 200px;
-}
-
-.mission-card {
-  background-color: rgb(3, 46, 46);
-  border: 2px solid gray;
-  border-radius: 5px;
-  color: whitesmoke;
-  display: flex;
-  flex-direction: row;
-  height: 150px;
-  justify-content: space-around;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 30px;
-}

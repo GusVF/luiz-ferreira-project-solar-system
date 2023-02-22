@@ -5,8 +5,12 @@ class Title extends Component {
   render() {
     const { headline } = this.props;
     return (
-      <div>
-        <h2 className="h2">
+      <div
+        className="is-size-1
+      has-text-light
+      is-italic has-text-centered"
+      >
+        <h2>
           { headline }
         </h2>
       </div>
